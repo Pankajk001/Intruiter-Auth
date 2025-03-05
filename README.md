@@ -21,13 +21,20 @@ This project is a full-stack application for user authentication and authorizati
 
 - `VITE_BACKEND_URL`: URL of the backend server.
 
+
 ### Server
 
-- `MONGODB_URL`: MongoDB connection string.
-- `JWT_SECRET`: Secret key for JWT.
-- `SMTP_USER`: SMTP user for sending emails.
-- `SMTP_PASS`: SMTP password for sending emails.
-- `SENDER_EMAIL`: Email address for sending emails.
+## Server .env content
+
+- `MONGODB_URL`:'mongodb+srv://incruiter:incruiter@cluster0.5vldt.mongodb.net'
+- `JWT_SECRET`: 'incruiter'
+- `NODE_ENV`: 'production'
+- `SMTP_USER`: "872754001@smtp-brevo.com"
+- `SMTP_PASS`: "Z2Aph9d1gCYRzvI8"
+- `SENDER_EMAIL`: "pkallen000@gmail.com"
+
+## client .env content
+`VITE_BACKEND_URL`:'http://localhost:5000'
 
 ## Server
 
