@@ -17,13 +17,6 @@ This project is a full-stack application for user authentication and authorizati
 
 ## Environment Variables
 
-### Client
-
-- `VITE_BACKEND_URL`: URL of the backend server.
-
-
-### Server
-
 ## Server .env content
 
 - `MONGODB_URL`:'mongodb+srv://incruiter:incruiter@cluster0.5vldt.mongodb.net'
@@ -35,6 +28,7 @@ This project is a full-stack application for user authentication and authorizati
 
 ## client .env content
 `VITE_BACKEND_URL`:'http://localhost:5000'
+
 
 ## Server
 
