@@ -15,12 +15,13 @@ await connectDB();
 app.use(express.json());
 app.use(cookieParser());
 
-// const allowedOrigins = [
-//     'http://localhost:5173',  
-//     'https://incruiter-auth-gkku.vercel.app'  
-//   ];
 
-app.use(cors()); 
+app.use(
+    cors({
+      origin: 'https://intruiter-auth-frontend.onrender.com', 
+      credentials: true, 
+    })
+  );
 
 // api endpoints
 app.get('/', (req, res) => {
