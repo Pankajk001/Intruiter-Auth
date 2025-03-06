@@ -9,7 +9,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment variables
-client/.env
 server/.env
 
 # Build output
